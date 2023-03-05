@@ -61,12 +61,12 @@ h4 {
 .bill img,
 .numofpeople img {
     position: absolute;
-    top: 2.3rem;
+    bottom: .7rem;
     left: 1.3rem;
 }
 
 .bill-input,
-#num{
+.num {
     outline: none;
     border: none;
     display: block;
@@ -81,7 +81,9 @@ h4 {
         sans-serif;
     color: var(--clr-dk-cyan);
     border-radius: 5px;
+    cursor: pointer;
 }
+
 
 .calc-main {
     /* background-color: aqua; */
@@ -100,6 +102,7 @@ h4 {
     border-radius: 7px;
     font-size: 1.5rem;
     color: var(--clr-vr-lt-gr-cyan);
+    cursor: pointer;
 }
 
 .tips-btn:active {
@@ -120,13 +123,21 @@ h4 {
     outline: none;
     display: block;
     background-color: var(--clr-vr-lt-gr-cyan);
-    width: 25%;
+    width: 47%;
     color: var(--clr-dk-cyan);
     font-family: 'Space Mono',
         sans-serif;
     text-align: right;
     padding-right: 1rem;
     font-size: 1.5rem;
+    border-radius: 10px;
+}
+.bill-zero{
+    border: 3px solid red;
+}
+
+.num-zero {
+    border: 3px solid red;
 }
 
 .tips-btn-container input:hover,
@@ -134,6 +145,7 @@ h4 {
 .numofpeople input:hover {
     border: 3px solid var(--clr-strng-cyan);
 }
+
 
 .calc-display {
     background-color: var(--clr-dk-cyan);
@@ -178,23 +190,43 @@ p.total-amount {
     text-transform: uppercase;
     font-family: 'Space Mono';
     color: rgba(19, 24, 24, 30%);
+    cursor: pointer;
 }
 
-.reset:active {
+.reset:active, .reset:hover {
     background-color: hsl(172, 72%, 71%);
     color: var(--clr-dk-cyan);
 }
 
-.resetDOM{
+/* .resetDOM {
     background-color: hsl(172, 72%, 71%);
     color: var(--clr-dk-cyan);
+} */
+
+.bill-display {
+    text-align: right;
+    color: red;
+    /* border: red; */
 }
+
+.bill-hidden {
+    display: none;
+}
+
+.num-display{
+    display: none;
+
+}
+
+/* .num-hidden {
+    display: none;
+} */
 
 @media screen and (min-width:992px) {
-    body {
+    /* body{
         /* justify-content: center;
-        align-items: center; */
-    }
+        align-items: center; 
+    } */
 
     .container {
         min-width: 992px;
