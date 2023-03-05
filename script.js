@@ -20,8 +20,6 @@ const tipsInput = document.querySelector(".tips-input");
 
 const valInputEl = document.querySelector("#input-box");
 
-
-
 // billDisplay.classList.remove("bill-zero");
 
 // bill.classList.remove("bill-zero");
@@ -86,10 +84,10 @@ valInputEl.addEventListener("change", function () {
   }
 });
 console.log(btnReset);
-btnReset.addEventListener('click', function(){
-  valInputEl.value = '';
-  tips_amount.innerHTML = `$0.00`
+btnReset.addEventListener("click", function () {
+  valInputEl.value = "";
+  tips_amount.innerHTML = `$0.00`;
   total_amount.innerHTML = `$0.00`;
-  numOfPeople.value= ''
-  bill.value = '';
-}) 
+  numOfPeople.value = "";
+  bill.value = "";
+});

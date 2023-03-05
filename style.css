@@ -132,7 +132,8 @@ h4 {
     font-size: 1.5rem;
     border-radius: 10px;
 }
-.bill-zero{
+
+.bill-zero {
     border: 3px solid red;
 }
 
@@ -145,7 +146,6 @@ h4 {
 .numofpeople input:hover {
     border: 3px solid var(--clr-strng-cyan);
 }
-
 
 .calc-display {
     background-color: var(--clr-dk-cyan);
@@ -193,7 +193,8 @@ p.total-amount {
     cursor: pointer;
 }
 
-.reset:active, .reset:hover {
+.reset:active,
+.reset:hover {
     background-color: hsl(172, 72%, 71%);
     color: var(--clr-dk-cyan);
 }
@@ -213,7 +214,7 @@ p.total-amount {
     display: none;
 }
 
-.num-display{
+.num-display {
     display: none;
 
 }
