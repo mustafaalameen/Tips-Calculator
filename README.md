@@ -60,7 +60,7 @@ The web app is capable of running smoothly on any web browser with the following
 ![reset2_objects](https://github.com/mustafaalameen/Tips-Calculator/assets/70868527/cec8416c-8fc8-4535-98ad-4a4f87ef9c23)
 - The calculator can now be used for a new calculation
 ## License
-This project is licensed under the [MIT License](Tips-Calculator/LICENSE)
+This project is licensed under the [MIT License](./LICENSE)
 ## Contact and Support
 For support or questions, please contact via:
 -  **Twitter:**  [Mohfeyi](https://twitter.com/Mohfeyi)
