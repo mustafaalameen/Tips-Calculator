@@ -5,7 +5,7 @@ The tip calculator is solely made to determine the tip you're entitled to.
 
 # Table of contents
 1.  [Why Tips Calculator?](#why-tips-calculator-?)
-2.  [Running the Tips Calculator](#running_the_tips_calculator)
+2.  [Running the Tips Calculator](#running-the-tips-calculator)
 3.  [Features](#features)
    
 ## Why Tips Calculator?
