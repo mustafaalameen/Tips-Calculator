@@ -1,5 +1,10 @@
 ![logo](https://github.com/mustafaalameen/Tips-Calculator/assets/70868527/c23af591-8b34-46ea-9d93-b8ca1aac2c33)
-# Tip calculator app
+# Tip calculator app ![Static Badge](https://img.shields.io/badge/building-in_progress-blue) ![GitHub](https://img.shields.io/github/license/mustafaalameen/Tips-Calculator)  ![GitHub top language](https://img.shields.io/github/languages/top/mustafaalameen/Tips-Calculator) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/mustafaalameen/Tips-Calculator) ![Twitter Follow](https://img.shields.io/twitter/follow/Mohfeyi)
+
+
+
+
+
 The tip calculator is solely made to determine the tip you're entitled to.
 
 ## Table of contents
