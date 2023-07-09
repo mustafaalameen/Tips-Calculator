@@ -8,7 +8,7 @@ The tip calculator is solely made to determine the tip you're entitled to.
 2.  [Running the Tips Calculator](#running-the-tips-calculator)
 3.  [Features](#features)
    
-## Why Tips Calculator?
+## Why Tips Calculator?<a name="why-tips-calculator-?"></a>
 The Tip Calculator is a web application made to calculate the:
 -  Correct Tip Amount, and
 -  Total Cost of the bill (including the tip) per person.\
